@@ -7,8 +7,8 @@ Jquery plugin textarea fullscreen mode
 Insert this code before tag `</head>`
 ```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="/jqeury.textareafullscreen/jquery.textareafullscreen.js"></script>
-<link rel="stylesheet" href="/jqeury.textareafullscreen/textareafullscreen.css">
+<script src="/jquery.textareafullscreen/jquery.textareafullscreen.js"></script>
+<link rel="stylesheet" href="/jquery.textareafullscreen/textareafullscreen.css">
 ```
 # Use
 ```
