@@ -3,12 +3,12 @@
  jQuery Textarea Fullscreen Editor v1.0
  Fullscreen text editor plugin for jQuery.
 
- :For more details visit http://github.com/CreoArt/textarea-fullscreen
+ :For more details visit http://github.com/CreoArt/jquery.textareafullscreen
 
  - CreoArt <support@creoart.org>
  - http://github.com/CreoArt
 
- Licensed under MIT - http://opensource.org/licenses/MIT
+ Licensed under Apache - https://raw.githubusercontent.com/CreoArt/jquery.textareafullscreen/master/LICENSE
 
 */
 (function($) {
