@@ -20,9 +20,9 @@
                 }
         ],
         "bugs": "https://github.com/CreoArt/jqeury.textareafullscreen/issues",
-        "homepage": "https://github.com/CreoArt/jqeury.textareafullscreen",
+        "homepage": "http://creoart.github.io/jquery.textareafullscreen",
         "docs": "https://github.com/CreoArt/jqeury.textareafullscreen",
-        "download": "https://raw.github.com/CreoArt/jqeury.textareafullscreen/master/jquery.Slider.js",
+        "download": "https://github.com/CreoArt/jquery.textareafullscreen/raw/master/jquery.textareafullscreen.js",
         "dependencies": {
                 "jquery": ">=1.7"
         }
