@@ -20,4 +20,4 @@ $(document).ready(function() {
 	});
 });
 ```
-[Demo](http://creoart.github.io/jqeury.textareafullscreen)
+[Demo](http://creoart.github.io/jquery.textareafullscreen)
