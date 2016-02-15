@@ -16,7 +16,8 @@ $(document).ready(function() {
 	$('#demo').textareafullscreen({
 		overlay: true, // Overlay
 		maxWidth: '80%', // Max width
-		maxHeight: '80%' // Max height
+		maxHeight: '80%', // Max height
+		key: 'f' // default null, crtl + key to toggle fullscreen
 	});
 });
 ```
