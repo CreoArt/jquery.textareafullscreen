@@ -48,7 +48,8 @@
         this.settings = {
             overlay: true,
             maxWidth: '',
-            maxHeight: ''
+            maxHeight: '',
+            key: null
         };
 
         for( i = 0; i < this.bindMethods.length; i++) {
@@ -91,6 +92,20 @@
             'height': '100%',
             'resize': 'none'
         });
+
+        var self = this;
+
+        if (this.settings.key !== null) {
+            this.$wrapper.on('keyup', function (e) {
+                if (e.ctrlKey && (String.fromCharCode(e.which) == self.settings.key.toUpperCase() || String.fromCharCode(e.which) == self.settings.key)) {
+                    if (isFullscreen()) {
+                        self.minimize();
+                    } else {
+                        self.expand();
+                    }
+                }
+            });
+        }
 
         //Fullscreen icon click event
         this.$icon.on('click.txeditor.icon', this.onIconClick);
